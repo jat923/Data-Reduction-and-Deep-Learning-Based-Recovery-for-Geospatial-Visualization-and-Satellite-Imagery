@@ -10,12 +10,12 @@ This repository contains code for data deletion strategies and recovery methods.
 # Recovery
 
 # Dependencies
-$ OpenCV
+1. OpenCV
 
-$ matplotlib
+2. matplotlib
 
-$ scikit-learn
+3. scikit-learn
 
-$ keras
+4. keras
 
-$ tensorflow
+5. tensorflow
