@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e4a4b8-eb04-4864-9092-83e1cd999cdd" name="Default Changelist" comment="" />
+    <list default="true" id="d1e4a4b8-eb04-4864-9092-83e1cd999cdd" name="Default Changelist" comment="added code deletion strategies (Grid, checkerboard,variance based deletion and lossy compression)-the codes work on the whole directory of data files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +38,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dataPrep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data-Reduction-and-Deep-Learning-Based-Recovery-for-Geospatial-Visualization-and-Satellite-Imagery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Dataset/sentinel" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Dataset/sentinel/dataPrep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dataPrep" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,6 +79,48 @@
       <option name="presentableId" value="Default" />
       <updated>1601096818259</updated>
     </task>
+    <task id="LOCAL-00001" summary="added code for reconstruction algorithms (interpolation, machine learning, SRGAN)">
+      <created>1601098824838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601098824838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added code deletion strategies (Grid, checkerboard,variance based deletion and lossy compression)-the codes work on the whole directory of data files">
+      <created>1601099048484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601099048484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added code for reconstruction algorithms (interpolation, machine learning, SRGAN)" />
+    <MESSAGE value="added code deletion strategies (Grid, checkerboard,variance based deletion and lossy compression)-the codes work on the whole directory of data files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code deletion strategies (Grid, checkerboard,variance based deletion and lossy compression)-the codes work on the whole directory of data files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="80" y="31" key="#dataPrep" timestamp="1601189812125">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="80" y="31" key="#dataPrep/0.0.1454.864@0.0.1454.864" timestamp="1601189812125" />
+    <state x="835" y="311" key="FileChooserDialogImpl" timestamp="1601189840457">
+      <screen x="0" y="0" width="1454" height="864" />
+    </state>
+    <state x="835" y="311" key="FileChooserDialogImpl/0.0.1454.864@0.0.1454.864" timestamp="1601189840457" />
   </component>
 </project>
