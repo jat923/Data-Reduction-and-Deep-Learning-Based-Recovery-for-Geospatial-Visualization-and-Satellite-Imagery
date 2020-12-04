@@ -5,11 +5,11 @@ Big datasets often demand high-bandwidth, high-capacity storage, and high-perfor
 
 This repository contains code for data deletion strategies and recovery methods.
 
-# Data Reduction Strategies
+## Data Reduction Strategies
 
-# Recovery
+## Recovery
 
-# Dependencies
+## Dependencies
 1. OpenCV
 
 2. matplotlib
