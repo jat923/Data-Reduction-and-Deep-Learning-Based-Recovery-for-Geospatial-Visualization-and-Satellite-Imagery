@@ -6,8 +6,15 @@ Big datasets often demand high-bandwidth, high-capacity storage, and high-perfor
 This repository contains code for data deletion strategies and recovery methods.
 
 ## Data Reduction Strategies
+### Uniform deletion
+### Variance based deletion
 
 ## Recovery
+### Bayesian Ridge Regression
+### Shallow neural network
+### SRGAN
+### Image inpainting
+
 
 ## Dependencies
 1. OpenCV
