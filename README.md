@@ -6,6 +6,7 @@ Big datasets often demand high-bandwidth, high-capacity storage, and high-perfor
 This repository contains code for data deletion strategies and recovery methods.
 
 ## Data Reduction Strategies
+
 ### Uniform deletion
 ### Variance based deletion
 
@@ -16,7 +17,12 @@ This repository contains code for data deletion strategies and recovery methods.
 ### Image inpainting
 
 
-## Dependencies
+## Using this repository
+### For runing data reduction codes:
+*Update the directory name.
+* Run 'python batchImageGridDeletion.py'
+### For runing data reduction codes:
+###Dependencies
 1. OpenCV
 
 2. matplotlib
