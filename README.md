@@ -7,22 +7,28 @@ This repository contains code for data deletion strategies and recovery methods.
 
 ## Data Reduction Strategies
 
-### Uniform deletion
-### Variance based deletion
+* Uniform deletion
+** Grid deletion
+** Checkerboard deletion
+* Variance based deletion
 
 ## Recovery
-### Bayesian Ridge Regression
-### Shallow neural network
-### SRGAN
-### Image inpainting
+* Bayesian Ridge Regression
+* Shallow neural network
+* SRGAN
+* Image inpainting
 
 
 ## Using this repository
 ### For runing data reduction codes:
-*Update the directory name.
-* Run 'python batchImageGridDeletion.py'
-### For runing data reduction codes:
-###Dependencies
+* Update the directory name.
+* Run 'python batchImageGridDeletion.py'.
+### For runing recovery codes:
+* Put the prepared training data using the data reduction codes in folder.
+* Update the directory in training codes.
+* Put the prepared testing data using the data reduction codes in folder.
+* Update the directory in testing codes.
+### Dependencies
 1. OpenCV
 
 2. matplotlib
