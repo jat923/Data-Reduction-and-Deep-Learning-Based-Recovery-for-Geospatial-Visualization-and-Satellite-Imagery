@@ -8,8 +8,8 @@ This repository contains code for data deletion strategies and recovery methods.
 ## Data Reduction Strategies
 
 * Uniform deletion
-   ** Grid deletion
-   ** Checkerboard deletion
+   * Grid deletion
+   * Checkerboard deletion
 * Variance based deletion
 
 ## Recovery
